@@ -359,10 +359,19 @@ box-sizing: border-box;
 .section1  p  br{
 display: none;
 }
+.section1 h1 br{
+    display: none;
+}
 .number{
     width: 100%;
     gap: 20px;
     padding-bottom: 20px;
+}
+.number span{
+    font-size: larger;
+}
+.number p {
+    font-size: medium;
 }
 .sectionbutton{
     padding-bottom: 80px;
@@ -384,8 +393,15 @@ display: none;
 .section4text br{
     display: none;
 }
+.section2 h1{
+    font-size: xx-large;
+}
+.section2 h2{
+    font-size: x-large;
+}
+
 .section2 p{
-    font-size: large;
+    font-size: medium;
     padding-bottom: 10px;
 }
 .section2image{
