@@ -1,17 +1,18 @@
 body{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins';
+    
 }
 section{
-    padding: 0 80px;
+    padding: 0 120px;
 }
 
 .nav{
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0 80px;
+    padding: 0 120px;
     z-index: 999;
     display: flex;
     width: 100%;
@@ -63,9 +64,12 @@ font-size: larger;
 .section1text{
     width: 40%;
 }
+.section1 img{
+    padding-top: 20px;
+}
 .section1{
-    padding: 0 80px;
-    padding-top: 100px;
+    padding: 0 120px;
+    padding-top: 120px;
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
@@ -82,7 +86,7 @@ font-size: larger;
     
 }
 .sectionbutton1{
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: 1px solid rgb(145, 109, 179);
     color: rgb(146, 107, 182);
     background-color: white;
@@ -90,7 +94,7 @@ font-size: larger;
     width: 120px;    
 }
 .sectionbutton2{
-    padding: 10px 20px  ;
+    padding: 15px 20px  ;
     color: white;
     background-color: rgb(146, 91, 197);
     border-radius: 10px;  
@@ -122,7 +126,7 @@ font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 80px;
+    padding: 0 120px;
     
 }
 .section2 img{
@@ -133,10 +137,10 @@ font-weight: bolder;
     
 }
 .section2image{
-    width: 60%;
+    width: 800px;
     object-fit: cover;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    
+    
 }
 .section2 button{
     padding: 15px 20px;
@@ -145,6 +149,7 @@ font-weight: bolder;
     width: 120px;
     background-color: rgb(201, 162, 235);
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 .section2 p{
     font-size: 22px;
@@ -156,7 +161,7 @@ font-size: 30px;
     font-size: 40px;
 }
 .section3{
-    padding: 40px 80px;
+    padding: 40px 120px;
    
 }
 .section3text{
@@ -181,7 +186,7 @@ font-size: 30px;
     font-size: 36px;
 }
 .section4{
-    padding: 40px 80px;
+    padding: 40px 120px;
 background-color: rgb(230, 220, 245);
 }
 .section4 img{
@@ -218,7 +223,8 @@ background-color: rgb(230, 220, 245);
     font-size: larger;
 }
 .section5{
-    padding: 40px 80px;
+    padding: 40px 120px;
+    max-width: 1440;
 }
 .section5content{
     display: flex;
@@ -231,6 +237,7 @@ background-color: rgb(230, 220, 245);
     padding-top: 100px;
     justify-content: space-between;
 }
+
 
 .contact{
 background-color: rgb(230, 220, 245);
@@ -257,7 +264,8 @@ border: 1px solid rgb(159, 118, 197);
 }
 .form{
    background-color: rgb(230, 220, 245); 
-   padding: 20px 30px;
+   padding: 20px 50px;
+   
    border-radius: 15px;
    border: 1px solid rgb(159, 118, 197);
 }
