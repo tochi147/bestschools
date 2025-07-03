@@ -1,6 +1,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 section{
     padding: 0 80px;
@@ -106,7 +107,7 @@ font-size: larger;
   
 }
 hr{
-    height: 60px;
+    height: 80px;
     color: rgb(189, 156, 221);
 }
 span{
@@ -356,11 +357,16 @@ box-sizing: border-box;
     font-size: 36px;
     padding-bottom: 20px;
 }
+
 .section1  p  br{
 display: none;
 }
 .section1 h1 br{
     display: none;
+}
+.section1 hr{
+    color: rgb(137, 70, 199);
+    height: 50px;
 }
 .number{
     width: 100%;
@@ -395,6 +401,7 @@ display: none;
 }
 .section2 h1{
     font-size: xx-large;
+    padding-bottom: 10px;
 }
 .section2 h2{
     font-size: x-large;
@@ -434,8 +441,11 @@ display: none;
     flex-direction: column;
     width: 100%;
 }
-.section4 p{
-    font-size: large;
+.section4 h2{
+    font-size: x-large;
+}
+.section4text p{
+    font-size: small;
     padding-bottom: 10px;
 }
 .section4text{
@@ -492,10 +502,10 @@ footer h1{
     padding-bottom: 10px;
 }
 footer i{
-    font-size: small;
+    font-size: medium;
     border-radius: 50%;
-    padding: 3px;
-    width: 20px;
+    padding: 4px;
+    width: 24px;
 }
 .footericon{
     gap: 8px;
@@ -532,6 +542,10 @@ footer p{
 .section1 h1{
     font-size: 40px;
     padding-bottom: 20px;
+}
+.section1 hr{
+    color: rgb(137, 70, 199);
+    height: 60px;
 }
 .number{
     width: 80%;
@@ -706,6 +720,10 @@ footer p{
 .section1 h1{
     font-size: 55px;
     padding-bottom: 20px;
+}
+.section1 hr{
+    color: rgb(137, 70, 199);
+    height: 60px;
 }
 .section1 p{
     font-size: 30px;
